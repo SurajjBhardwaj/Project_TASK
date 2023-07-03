@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;0,900;1,100;1,200;1,500;1,700;1,800&family=Roboto:wght@100;300;400&display=swap');
+
+  *{
+    font-family: 'poppins',sans-serif;
+  }
+
+
+.words{
+  font-family: 'poppins','sans-serif';
+}
+
+.login{
+  background-color: #44c29c;
+}
+
+.register{
+  background-color: transparent;
+  border: 1px white solid;
+  margin-left: 15px;
+}
+
+h1{
+  font-family: 'poppins';
+}
+
+.btn-2{
+  width: 7rem;
+  height: 2.5rem;
+  border: 1px #5d18ac solid;
+}
+
+.card{
+  width: 20rem;
+  /* height: 20rem; */
+  border: 1px solid #5d18ac;
+  margin-left: 30px;
+}
+.card:hover{
+  --tw-text-opacity: 1;
+  background-color: rgb(124 58 237 / var(--tw-text-opacity));
+  cursor: pointer;
+  color: white;
+}
+
+li{
+  cursor: pointer;
+}
+
+.form{
+  width: 20rem;
+  border: 1px solid #5d18ac;
+  margin-left: 30px;
+
+}
+
+input,textarea{
+  margin-left: 18px;
+  border: 1px gray solid;
+  width: 18rem;
+  margin-top: 10px;
+  padding: 4px;
+}
+.submit{
+  margin-bottom: 5px;
+  margin-left: 18px;
+  --tw-text-opacity: 1;
+  background-color: rgb(124 58 237 / var(--tw-text-opacity));
+  color: white;
+  padding: 2px;
+  width: 5rem;
+}
+
+.login{
+  width: 20rem;
+  height: 15rem;
+  border: none;
+  background-color: transparent;
+
+}
+
+.submitLogin{
+  background-color: #5d18ac;
+  color: white;
+  cursor: pointer;
+
+}
+
+.submitLogin:hover{
+  opacity: 0.8;
+}
+
+.submitRegister{
+  border: 1px solid #5d18ac;
+  color: #5d18ac;
+  cursor: pointer;
+
+}
+.submitRegister:hover{
+  background-color: #5d18ac;
+  color: white;
+  cursor: pointer;
+}
+
+.register{
+  width: 20rem;
+  height: 18rem;
+  border: 1px solid #5d18ac;
+  background-color: transparent;
+  border: none;
+}
+
+.registerform{
+  background-color: #5d18ac;
+  color: white;
+  cursor: pointer;
+ 
+}
+
+.loginform{
+  border: 1px solid #5d18ac;
+  color: #5d18ac;
+  cursor: pointer;
+}
+
+.registerform:hover{
+  opacity: 0.8;
+}
+
+.loginform:hover{
+
+  background-color: #5d18ac;
+  color: white;
+  cursor: pointer;
+
+}
+
+input:focus{
+ outline: none;
+}
+
+input{
+  border: 1px solid gray;
+}
+
+.register{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.login{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login,.register{
+  margin: 20px;
+}
