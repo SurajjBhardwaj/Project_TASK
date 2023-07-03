@@ -13,9 +13,7 @@
   font-family: 'poppins','sans-serif';
 }
 
-.login{
-  background-color: #44c29c;
-}
+
 
 .register{
   background-color: transparent;
@@ -74,13 +72,6 @@ input,textarea{
   width: 5rem;
 }
 
-.login{
-  width: 20rem;
-  height: 15rem;
-  border: none;
-  background-color: transparent;
-
-}
 
 .submitLogin{
   background-color: #5d18ac;
@@ -145,10 +136,6 @@ input:focus{
 input{
   border: 1px solid gray;
 }
-
-.register{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
 .login{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -156,3 +143,19 @@ input{
 .login,.register{
   margin: 20px;
 }
+
+
+.login{
+  width: 20rem;
+  height: 15rem;
+  margin-left: 500px;
+  border: none;
+  background-color: transparent;
+
+}
+  
+  .register{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 500px;
+  
+  }

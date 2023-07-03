@@ -34,12 +34,7 @@ const Features = () => {
     </div>
     </div>
 
-    {/* Footer */}
-    <div className="footer w-full">
-
-    <h1>Address</h1>
-
-    </div>
+    
     </>
   )
 }
